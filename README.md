@@ -1,7 +1,7 @@
 # eCommerce-Application_Firebase
 
 
-teeKart is an eCommerce app where user can select any of these profile types **Admin**, **Seller**, **Customer**. Firebase is used for authentication,realtime database and image storage.Other frameworks like Glide, Crop image library and Material edit text are used for better user interactions.<br />
+Bookshelf is an eCommerce app where user can select any of these profile types **Admin**, **Seller**, **Customer**. Firebase is used for authentication,realtime database and image storage.Other frameworks like Glide, Crop image library and Material edit text are used for better user interactions.<br />
 #### Features of Customer :
 * Customer can select any desired products from various categories.
 * Customer can also search the name or category of the product.
