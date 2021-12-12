@@ -27,23 +27,15 @@ teeKart is an eCommerce app where user can select any of these profile types **A
 
 
 #### Login with any of these profile types
-![](https://github.com/connecttejas/eCommerce-Application_Firebase/blob/master/Screenshots/ecommerce_welcome.gif) 
-
-
 
 
 
 ## Customer Profile
-![](https://github.com/connecttejas/eCommerce-Application_Firebase/blob/master/Screenshots/ecommerce_user_main.gif) 
 
 Search Products             | Select Categories        |  Update Cart
 :-------------------------:|:-------------------------:|:-------------------------:
-<img src="https://github.com/connecttejas/eCommerce-Application_Firebase/blob/master/Screenshots/ecommerce_user_search.gif" width="200"> | <img src="https://github.com/connecttejas/eCommerce-Application_Firebase/blob/master/Screenshots/ecommerce_user_select.gif" width="200">| <img src="https://github.com/connecttejas/eCommerce-Application_Firebase/blob/master/Screenshots/ecommerce_user_cart.gif" width="200">
-
 
 ## Seller Profile
-![](https://github.com/connecttejas/eCommerce-Application_Firebase/blob/master/Screenshots/ecommerce_seller_all.gif) 
-
 
 
 
@@ -51,10 +43,8 @@ Search Products             | Select Categories        |  Update Cart
 
 Statistics                 | User Status 
 :-------------------------:|:-------------------------
-<img src="https://github.com/connecttejas/eCommerce-Application_Firebase/blob/master/Screenshots/ecommerce_admin_stats.jpg" width="200"> | <img src="https://github.com/connecttejas/eCommerce-Application_Firebase/blob/master/Screenshots/ecommerce_admin_track.gif" width="200">
 
 
 All Sellers               | All Products                  |  All Orders
 :-------------------------:|:-------------------------:|:-------------------------:
-<img src="https://github.com/connecttejas/eCommerce-Application_Firebase/blob/master/Screenshots/ecommerce_admin_sellers.jpg" width="200"> | <img src="https://github.com/connecttejas/eCommerce-Application_Firebase/blob/master/Screenshots/ecommerce_admin_products.jpg" width="200"> | <img src="https://github.com/connecttejas/eCommerce-Application_Firebase/blob/master/Screenshots/ecommerce_admin_orders.jpg" width="200">
 
