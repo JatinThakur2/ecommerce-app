@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "189511185749",
+    "firebase_url": "https://ecommerce-329419-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ecommerce-329419",
+    "storage_bucket": "ecommerce-329419.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189511185749:android:84079a398aab1994a46bdc",
+        "android_client_info": {
+          "package_name": "com.example.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189511185749-e6hbsnchon9movmgrrp8eo943okkrnf2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ecommerce",
+            "certificate_hash": "defea72da24a93afc39476231adc9a8d635a1113"
+          }
+        },
+        {
+          "client_id": "189511185749-l79um7n390ftcp7ru6r0lbohak6ens17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhL_Qz9jyrq9pXe-lvZYGHERDtNRu0SZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189511185749-l79um7n390ftcp7ru6r0lbohak6ens17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

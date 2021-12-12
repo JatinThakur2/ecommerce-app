@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Fragments.ModelProfileFragment">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seller email"
+            android:layout_gravity="center"
+            android:id="@+id/sellerEmail"
+            android:textColor="@color/seller2colorPrimaryDark"
+            android:textSize="18sp"/>
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_gravity="center"
+            android:id="@+id/image_profile"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Photo"
+            android:layout_gravity="center"
+            android:id="@+id/change_photo"
+            android:textColor="#4CAF50"
+            android:textSize="18sp"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sellerName"
+            app:met_floatingLabel="normal"
+            android:hint="Seller name"
+            android:layout_marginTop="20dp"
+           />
+
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sellerPhone"
+            android:hint="Seller phone"
+            app:met_floatingLabel="normal"
+            android:layout_marginTop="20dp"
+           />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sellerAddress"
+            android:hint="Address"
+            app:met_floatingLabel="normal"
+            android:layout_marginTop="20dp"
+            />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/sellerCity"
+            android:hint="City"
+            android:layout_marginTop="20dp"
+            app:met_floatingLabel="normal"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/sellerState"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+           app:met_floatingLabel="normal"
+            android:hint="State" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/updateSellerProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:textColor="@color/colorWhite"
+        android:text="Update Information"/>
+
+    <Button
+      android:layout_marginTop="50dp"
+        android:id="@+id/logoutSeller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F44336"
+        android:textColor="@color/colorWhite"
+        android:text="Logout as a Seller"/>
+
+    </LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#fa8100</color>
+    <color name="colorOrange">#FF9966</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+
+    <color name="sellercolorPrimary">#1BCA9B</color>
+    <color name="sellercolorPrimaryDark">#10A881</color>
+    <color name="sellercolorAccent">#FFF222</color>
+
+
+    <color name="seller1colorPrimary">#E91E63</color>
+    <color name="seller1colorPrimaryDark">#C2185B</color>
+    <color name="seller1colorAccent">#FF5252</color>
+    <color name="seller1colorTextIcons">#FFFFFF</color>
+    <color name="seller1colorSecondaryTextIcons">#757575</color>
+    <color name="seller1colorPrimaryLight">#F8BBD0</color>
+
+
+
+    <color name="seller2colorPrimary">#607D8B</color>
+    <color name="seller2colorPrimaryDark">#455A64</color>
+    <color name="seller2colorAccent">#607D8B</color>
+    <color name="seller2colorTextIcons">#FFFFFF</color>
+    <color name="seller2colorSecondaryTextIcons">#757575</color>
+    <color name="seller2colorPrimaryLight">#CFD8DC</color>
+</resources>

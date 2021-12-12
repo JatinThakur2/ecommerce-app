@@ -1,0 +1,53 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="StartTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryDark">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="SellerTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/sellercolorPrimary</item>
+        <item name="colorPrimaryDark">@color/sellercolorPrimaryDark</item>
+        <item name="colorAccent">@color/sellercolorAccent</item>
+    </style>
+
+
+    <style name="Seller1Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/seller1colorPrimary</item>
+        <item name="colorPrimaryDark">@color/seller1colorPrimaryDark</item>
+        <item name="colorAccent">@color/seller1colorAccent</item>
+
+    </style>
+
+
+    <style name="Seller2Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/seller2colorPrimary</item>
+        <item name="colorPrimaryDark">@color/seller2colorPrimaryDark</item>
+        <item name="colorAccent">@color/seller2colorAccent</item>
+    </style>
+
+
+    <style name="MenuStyle" parent="Theme.AppCompat.Light">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+
+
+
+
+</resources>

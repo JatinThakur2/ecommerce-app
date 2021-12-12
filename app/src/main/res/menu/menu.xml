@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_cart"
+        android:icon="@drawable/ic_cart"
+        android:title="Cart" />
+    <item
+        android:id="@+id/nav_ordersUser"
+        android:icon="@drawable/ic_order"
+        android:title="Orders" />
+    <item
+        android:id="@+id/nav_categories"
+        android:icon="@drawable/ic_category"
+        android:title="Product Categories" />
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_edit_profile"
+                android:icon="@drawable/ic_profile"
+                android:title="Edit Profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_signout"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_add_image"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_add_image"
+                android:title="Contact" />
+            <item
+                android:id="@+id/nav_aboutme"
+                android:icon="@drawable/ic_add_image"
+                android:title="About Developer" />
+
+        </menu>
+    </item>
+
+
+
+</menu>

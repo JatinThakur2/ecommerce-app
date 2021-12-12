@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical">
+
+
+         <TextView
+             android:id="@+id/orderid"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="orderid"
+             android:textSize="24sp"></TextView>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           >
+           <TextView
+               android:id="@+id/paymentmode"
+               android:layout_weight="1"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="paymentmode"
+               android:textSize="24sp"></TextView>
+           <TextView
+               android:id="@+id/totalamount"
+               android:layout_weight="1"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="totalamount"
+               android:textSize="24sp"></TextView>
+       </LinearLayout>
+
+         <TextView
+             android:id="@+id/userid"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textSize="24sp"
+             android:text="userid" />
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             >
+             <TextView
+                 android:id="@+id/username"
+                 android:layout_weight="1"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="username"
+                 android:textSize="24sp"></TextView>
+             <TextView
+                 android:id="@+id/userphone"
+                 android:layout_weight="1"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="userphone"
+                 android:textSize="24sp"></TextView>
+         </LinearLayout>
+
+         <TextView
+             android:id="@+id/productid"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textSize="24sp"
+             android:text="productid" />
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             >
+             <TextView
+                 android:id="@+id/productname"
+                 android:layout_weight="1"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="productname"
+                 android:textSize="24sp"></TextView>
+             <TextView
+                 android:id="@+id/productquantity"
+                 android:layout_weight="1"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="productquantity"
+                 android:textSize="24sp"></TextView>
+         </LinearLayout>
+
+
+     </LinearLayout>
+
+</androidx.cardview.widget.CardView>

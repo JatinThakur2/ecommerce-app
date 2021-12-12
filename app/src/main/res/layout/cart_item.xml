@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/button_remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="Remove"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/button_dec"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:gravity="center"
+            android:text="-"
+
+            android:textSize="10sp"
+            app:layout_constraintStart_toEndOf="@+id/image_productImage"
+            app:layout_constraintTop_toBottomOf="@+id/textView_productSeller" />
+
+        <Button
+            android:id="@+id/button_inc"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:gravity="center"
+            android:text="+"
+
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/button_dec"
+            app:layout_constraintStart_toEndOf="@+id/button_dec"
+            app:layout_constraintTop_toTopOf="@+id/button_dec" />
+
+        <ImageView
+            android:id="@+id/image_productImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_add_image" />
+
+        <TextView
+            android:id="@+id/textView_productSeller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Seller"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.067"
+            app:layout_constraintStart_toEndOf="@+id/image_productImage"
+            app:layout_constraintTop_toBottomOf="@+id/textView_productName" />
+
+        <TextView
+            android:id="@+id/textView_productQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="@+id/button_dec"
+            app:layout_constraintEnd_toStartOf="@+id/button_inc"
+            app:layout_constraintStart_toEndOf="@+id/button_dec"
+            app:layout_constraintTop_toTopOf="@+id/button_dec" />
+
+        <TextView
+            android:id="@+id/textView_productName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Product Name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/image_productImage"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
